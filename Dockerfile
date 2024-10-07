@@ -1,11 +1,11 @@
 # Usa una imagen base de OpenJDK
 FROM openjdk:11-jdk-slim
 
-# Establecer el directorio de trabajo dentro del contenedor
+# Define el directorio de trabajo
 WORKDIR /app
 
 # Copia el archivo JAR generado al contenedor
 COPY target/DeccoSalud-1.0-SNAPSHOT.jar app.jar
 
 # Comando para ejecutar la aplicación
-CMD ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
