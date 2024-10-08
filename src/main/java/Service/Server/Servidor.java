@@ -1,12 +1,9 @@
 package Service.Server;
 
-import Service.Server.Router;
 import io.javalin.Javalin;
 import io.javalin.config.JavalinConfig;
 import io.javalin.json.JavalinJackson;
 import io.javalin.openapi.plugin.OpenApiPlugin;
-import io.javalin.openapi.plugin.OpenApiPluginConfiguration;
-import io.javalin.openapi.OpenApiInfo;
 import io.javalin.openapi.plugin.redoc.ReDocPlugin;
 import io.javalin.openapi.plugin.swagger.SwaggerPlugin;
 

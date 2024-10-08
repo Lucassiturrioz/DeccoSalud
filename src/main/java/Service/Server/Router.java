@@ -2,7 +2,6 @@ package Service.Server;
 
 import Controller.CircuitoController;
 import Domain.Persona;
-import Domain.ResumenBarrio;
 import io.javalin.openapi.*;
 
 @OpenApi(
