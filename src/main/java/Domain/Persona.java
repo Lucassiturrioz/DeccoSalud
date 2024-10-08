@@ -7,9 +7,16 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
 @Setter
 public class Persona {
+    public List<String> getBarrios() {
+        return barrios;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
     @JsonProperty("nombre")
     private String nombre;
     @JsonProperty("barrios")
@@ -18,4 +25,8 @@ public class Persona {
     public Persona() {
         barrios = new ArrayList<>();
     }
+
+
+
+
 }
