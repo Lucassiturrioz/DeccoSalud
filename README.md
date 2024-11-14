@@ -1,6 +1,6 @@
 # DeccoSalud API Documentation
 
-<center>![DeccoSalud Logo](https://i.ibb.co/JqXrZmV/Captura.png)</center>
+<center> ![DeccoSalud Logo](https://i.ibb.co/JqXrZmV/Captura.png) </center>
 
 **DeccoSalud** es una extensión de **DeccoColaboración** creada para **RESTcatar** a las personas más vulnerables y brindar una salud social accesible y equitativa para una sociedad mejor. Esta API facilita la gestión de información de los barrios y sus habitantes para ofrecer soluciones de salud social.
 
