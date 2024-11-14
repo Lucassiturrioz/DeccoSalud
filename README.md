@@ -13,6 +13,7 @@
 ---
 
 ## Descripción
+
 Este endpoint recibe una lista de personas en situación vulnerable, donde cada persona ha consumido un alimento en diversos lugares. El sistema devuelve la cantidad de personas que consumieron en cada ciudad y sus nombres correspondientes.
 ---
 
@@ -33,7 +34,9 @@ _cantidadPersonas (int):_ cantidad de personas que consumieron
 
 _personas (array de strings):_ Lista de nombre y apellido de personas que consumieron 
 
-## Respuesta de ejemplo
+# Ejemplo
+
+# Envio
 ```json
 [
   {
@@ -55,7 +58,7 @@ _personas (array de strings):_ Lista de nombre y apellido de personas que consum
 
 ```
 
-## Respuesta de la API
+# Respuesta de la API
 
 ```json
 [
