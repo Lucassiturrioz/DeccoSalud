@@ -37,7 +37,7 @@ _personas (array de strings):_ Lista de nombre y apellido de personas que consum
 
 # Ejemplo
 
-# Envio
+### Request
 ```json
 [
   {
@@ -59,7 +59,7 @@ _personas (array de strings):_ Lista de nombre y apellido de personas que consum
 
 ```
 
-# Respuesta de la API
+### Response 
 
 ```json
 [
@@ -87,4 +87,7 @@ _personas (array de strings):_ Lista de nombre y apellido de personas que consum
   }
 ]
 ```
-
+### LINKS IMPORTANTE
+_Swagger_ : [https://deccosalud.onrender.com/](https://deccosalud.onrender.com/swagger)
+_Link para utilizar en RETROFIT_: https://deccosalud.onrender.com/
+Cualquier duda lucasiturrioz212@gmail.com :) 
