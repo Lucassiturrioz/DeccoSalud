@@ -15,6 +15,7 @@
 ## Descripción
 
 Este endpoint recibe una lista de personas en situación vulnerable, donde cada persona ha consumido un alimento en diversos lugares. El sistema devuelve la cantidad de personas que consumieron en cada ciudad y sus nombres correspondientes.
+
 ---
 
 **Body**
